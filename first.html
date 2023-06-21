@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 23.06.21 html TEST -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이벤트 신청 페이지</title>
+</head>
+
+<body>
+    <div>바보</div>
+    <p>멍청이</p>
+    <h1>똥개</h1>
+    <h2>해삼</h2>
+    <h3>말미잘</h3>
+    <h4>욕</h4>
+    <h5>심한 욕</h5>
+    <h6>더 심한 욕</h6>
+
+    <span style="color: purple;">  양갱  </span> KSB
+    <br>
+    <a href="https://blog.naver.com/belia1016"> 푸딩 블로그 </a>
+
+    <div>
+        온라인 이벤트
+    </div>
+
+    <form action="./result.html" method="get">
+        <fieldset>
+            <legend>이벤트 신청서</legend>
+            <div>
+                <label for="username">성함:</label>
+                <input name="username" type="text" placeholder="아이디" required="on">
+            </div>
+            <div>
+                <label for="phone">전화번호:</label>
+                <input name="phone" type="tel" placeholder="전화번호" required="on">
+            </div>
+            <div>
+                <label for="password">비밀번호:</label>
+                <input name="password" type="password" placeholder="비밀번호" required="on">
+            </div>
+            <div>
+                <label for="age">나이:</label>
+                <input name="age" type="number" min="0" max="999", step="1">
+            </div>
+            <div>
+                <label for="area">거주지:</label>
+                <label>서울</label>
+                <input name="area1" type="checkbox" value="서울">
+                <label>경기</label>
+                <input name="area2" type="checkbox" value="경기">
+                <label>인천</label>
+                <input name="area3" type="checkbox" value="인천">
+                <label>수원</label>
+                <input name="area4" type="checkbox" value="수원">
+                <label>기타</label>
+                <input name="area5" type="checkbox" value="기타">
+            </div>
+            <div>
+                <label for="sex">성별:</label>
+                <label>남</label>
+                <input name="sex" type="radio" value="male">
+                <label>여</label>
+                <input name="sex" type="radio" value="female">
+            </div>
+            <div>
+                <label for="summary">신청 사유:</label>
+                
+                <textarea name="summary" rows="5" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="type">동반 인원:</label>
+                <select name="type">
+                    <option value="1">0명</option>
+                    <option value="2">1명</option>
+                    <option value="3">2명</option>
+                    <option value="4">3명</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">제출</button>
+            </div>
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
